@@ -2,6 +2,7 @@
 #include "CPU/cpu.h"
 #include "Memory/memory.h"
 #include "ISO/iso.h"
+#include "Input/input.h"
 
 int main() {
 
@@ -12,13 +13,17 @@ int main() {
     CPU processador;
     Memory memoria;
     ISO jogo;
+    Input controle;
 
     memoria.limpar();
 
     processador.iniciar();
+
+    controle.iniciar();
+
     processador.executar();
 
-    std::cout << "Sistema pronto para carregar jogos!\n";
+    std::cout << "Sistema pronto!\n";
 
     return 0;
 }
