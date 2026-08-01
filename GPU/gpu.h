@@ -5,6 +5,9 @@ class GPU {
 
 public:
 
+    int largura;
+    int altura;
+
     void iniciar();
     void desenhar();
 
