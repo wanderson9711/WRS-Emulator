@@ -6,6 +6,8 @@ void GPU::iniciar() {
     largura = 480;
     altura = 272;
 
+    tela.limpar();
+
     std::cout << "GPU iniciada!" << std::endl;
     std::cout << "Resolucao PSP: "
               << largura << "x"
@@ -16,6 +18,6 @@ void GPU::iniciar() {
 
 void GPU::desenhar() {
 
-    std::cout << "Tela renderizada!" << std::endl;
+    std::cout << "Desenhando framebuffer na tela..." << std::endl;
 
 }
