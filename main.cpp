@@ -1,13 +1,16 @@
 #include <iostream>
+#include "CPU/cpu.h"
 
 int main() {
 
     std::cout << "=========================\n";
     std::cout << "     WRS PSP Emulator\n";
-    std::cout << "=========================\n";
+    std::cout << "=========================\n\n";
 
-    std::cout << "Emulador iniciado!\n";
-    std::cout << "Sistema: PSP\n";
+    CPU processador;
+
+    processador.iniciar();
+    processador.executar();
 
     return 0;
 }
