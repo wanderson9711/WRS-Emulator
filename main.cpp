@@ -1,8 +1,10 @@
 #include <iostream>
+
 #include "CPU/cpu.h"
 #include "Memory/memory.h"
 #include "ISO/iso.h"
 #include "Input/input.h"
+#include "GPU/gpu.h"
 
 int main() {
 
@@ -14,12 +16,16 @@ int main() {
     Memory memoria;
     ISO jogo;
     Input controle;
+    GPU grafico;
 
     memoria.limpar();
 
     processador.iniciar();
 
     controle.iniciar();
+
+    grafico.iniciar();
+    grafico.desenhar();
 
     processador.executar();
 
