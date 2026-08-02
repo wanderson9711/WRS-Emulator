@@ -1,0 +1,106 @@
+{
+  "consoles": [
+    {
+      "id": "psp",
+      "nome": "PlayStation Portable",
+      "fabricante": "Sony",
+      "cor": "#006FCD"
+    },
+    {
+      "id": "ps1",
+      "nome": "PlayStation",
+      "fabricante": "Sony",
+      "cor": "#7A7A7A"
+    },
+    {
+      "id": "ps2",
+      "nome": "PlayStation 2",
+      "fabricante": "Sony",
+      "cor": "#0038FF"
+    },
+    {
+      "id": "ps3",
+      "nome": "PlayStation 3",
+      "fabricante": "Sony",
+      "cor": "#202020"
+    },
+    {
+      "id": "ps4",
+      "nome": "PlayStation 4",
+      "fabricante": "Sony",
+      "cor": "#0055FF"
+    },
+    {
+      "id": "ps5",
+      "nome": "PlayStation 5",
+      "fabricante": "Sony",
+      "cor": "#FFFFFF"
+    },
+    {
+      "id": "xbox",
+      "nome": "Xbox",
+      "fabricante": "Microsoft",
+      "cor": "#107C10"
+    },
+    {
+      "id": "xbox360",
+      "nome": "Xbox 360",
+      "fabricante": "Microsoft",
+      "cor": "#7FBF3F"
+    },
+    {
+      "id": "xboxone",
+      "nome": "Xbox One",
+      "fabricante": "Microsoft",
+      "cor": "#107C10"
+    },
+    {
+      "id": "seriesx",
+      "nome": "Xbox Series X|S",
+      "fabricante": "Microsoft",
+      "cor": "#0A0A0A"
+    },
+    {
+      "id": "switch",
+      "nome": "Nintendo Switch",
+      "fabricante": "Nintendo",
+      "cor": "#E60012"
+    },
+    {
+      "id": "switch2",
+      "nome": "Nintendo Switch 2",
+      "fabricante": "Nintendo",
+      "cor": "#FF3B30"
+    },
+    {
+      "id": "nds",
+      "nome": "Nintendo DS",
+      "fabricante": "Nintendo",
+      "cor": "#AAAAAA"
+    },
+    {
+      "id": "3ds",
+      "nome": "Nintendo 3DS",
+      "fabricante": "Nintendo",
+      "cor": "#D50000"
+    },
+    {
+      "id": "gamecube",
+      "nome": "Nintendo GameCube",
+      "fabricante": "Nintendo",
+      "cor": "#6A5ACD"
+    },
+    {
+      "id": "wii",
+      "nome": "Nintendo Wii",
+      "fabricante": "Nintendo",
+      "cor": "#00B5E2"
+    },
+    {
+      "id": "dreamcast",
+      "nome": "Dreamcast",
+      "fabricante": "SEGA",
+      "cor": "#FF6600"
+    }
+  ]
+}
