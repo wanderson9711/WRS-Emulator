@@ -8,7 +8,14 @@ std::vector<std::string> Scanner::ScanFolder(const std::string& folderPath)
 
     for (const auto& file : std::filesystem::directory_iterator(folderPath))
     {
-        if (file.path().extension() == ".iso")
+        std::string ext = file.path().extension().string();
+
+if (ext == ".iso" ||
+    ext == ".cso" ||
+    ext == ".pbp")
+{
+    games.push_back(file.path().filename().string());
+}
         {
             games.push_back(file.path().filename().string());
         }
