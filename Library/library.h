@@ -3,6 +3,7 @@
 
 #include <vector>
 #include "game.h"
+#include "../Game/game.h"
 
 class Library {
 public:
